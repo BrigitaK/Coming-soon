@@ -1,2 +1,42 @@
 body{
 }
+
+.container{
+    display: inline-block;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bg-blue {
+    background-color: #3cabef;
+}
+.hero{
+    display: inline-block;
+    width: 1000px;
+    text-align: center;
+    margin-left: calc(50% - 500px);
+}
+.left.column{
+    display: inline-block;
+    width: 50%;
+    float: left;
+
+}
+.right.column{
+    display: inline-block;
+    width: 40%;
+    float: right;
+
+}
+.row{
+
+}
+
+.hero-bg{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
