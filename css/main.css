@@ -7,11 +7,44 @@ body{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.container:first-child {
+    padding-bottom: 20px;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
     .hero-row{
         display: inline-block;
+        text-align: center;
         width: 600px;
         margin: 0 calc(50% - 300px);
     }
+        .logo{
+            height: 34px;
+            margin-bottom: 40px;
+            object-fit: contain;
+        }
+        h1{
+            font-size: 60px;
+            line-height: 60px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        .hero-row > p{
+            margin-bottom: 60px;
+            font-size: 22px;
+            line-height: 25px;
+            color: #a6b2bc;
+        }
+        .clock{
+            margin-bottom: 60px;
+        }
+        .hero-row > .form{
+            margin-bottom: 10px;
+        }
+
     .left-column{
         display: inline-block;
         float: left;
@@ -40,14 +73,6 @@ body{
     }
 .bg-blue {
     background-color: #3cabef;
-}
-
-.hero-bg{
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom center;
-    background-attachment: fixed;
 }
 
 @media (max-width:1100px) {
