@@ -7,32 +7,42 @@ body{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-    .container > .hero{
+    .hero-row{
         display: inline-block;
-        width: 1000px;
-        margin: 0 calc(50% - 500px);
+        width: 600px;
+        margin: 0 calc(50% - 300px);
         background-color:pink;
     }
-    .container > .left-column{
+    .left-column{
         display: inline-block;
         float: left;
-        width: 1000px;
-        margin: 0 calc(50% - 500px);
+        width: 50%;
         background-color:red;
     }
-    .container > .right-column{
+    .right-column{
         display: inline-block;
         float: right;
-        width: 1000px;
-        margin: 0 calc(50% - 500px);
+        width: 40%;
         background-color: blue;
 
     }
-    .container > .row{
+    .row{
         display: inline-block;
         width: 1000px;
         margin: 0 calc(50% - 500px);
-        background-color:yellow;
+    }
+    .socials{
+        display: inline-block;
+        width: 100%;
+        background-color: red;
+
+    }
+    .texts{
+        display: inline-block;
+        width: 600px;
+        margin-left: calc(50% - 300px);
+        background-color: white;
+
     }
 .bg-blue {
     background-color: #3cabef;
