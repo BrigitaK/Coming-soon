@@ -1,0 +1,57 @@
+body{
+}
+
+.container{
+    display: inline-block;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+    .hero-row{
+        display: inline-block;
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+        background-color:pink;
+    }
+    .left-column{
+        display: inline-block;
+        float: left;
+        width: 50%;
+        background-color:red;
+    }
+    .right-column{
+        display: inline-block;
+        float: right;
+        width: 40%;
+        background-color: blue;
+
+    }
+    .row{
+        display: inline-block;
+        width: 1000px;
+        margin: 0 calc(50% - 500px);
+    }
+    .socials{
+        display: inline-block;
+        width: 100%;
+        background-color: red;
+
+    }
+    .texts{
+        display: inline-block;
+        width: 600px;
+        margin-left: calc(50% - 300px);
+        background-color: white;
+
+    }
+.bg-blue {
+    background-color: #3cabef;
+}
+
+.hero-bg{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
