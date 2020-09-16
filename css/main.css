@@ -7,30 +7,35 @@ body{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+    .container > .hero{
+        display: inline-block;
+        width: 1000px;
+        margin: 0 calc(50% - 500px);
+        background-color:pink;
+    }
+    .container > .left-column{
+        display: inline-block;
+        float: left;
+        width: 1000px;
+        margin: 0 calc(50% - 500px);
+        background-color:red;
+    }
+    .container > .right-column{
+        display: inline-block;
+        float: right;
+        width: 1000px;
+        margin: 0 calc(50% - 500px);
+        background-color: blue;
 
+    }
+    .container > .row{
+        display: inline-block;
+        width: 1000px;
+        margin: 0 calc(50% - 500px);
+        background-color:yellow;
+    }
 .bg-blue {
     background-color: #3cabef;
-}
-.hero{
-    display: inline-block;
-    width: 1000px;
-    text-align: center;
-    margin-left: calc(50% - 500px);
-}
-.left.column{
-    display: inline-block;
-    width: 50%;
-    float: left;
-
-}
-.right.column{
-    display: inline-block;
-    width: 40%;
-    float: right;
-
-}
-.row{
-
 }
 
 .hero-bg{
