@@ -15,6 +15,9 @@ body{
     background-attachment: fixed;
     min-height: 100vh;
 }
+.container:nth-child(3) {
+    padding-top: 15px;
+}  
     .hero-row{
         display: inline-block;
         text-align: center;
@@ -81,18 +84,94 @@ body{
         .right-column{
             width: 40%;
             float: right;
-
         }
+  
     .socials{
         display: inline-block;
         width: 100%;
-
+        float: left;
+        border-bottom: 1px solid #48b3f2;
+        text-align: center;
+        padding-bottom: 5px;
+        line-height: 20px;
     }
-    .texts{
+        .fa{
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            padding:15px;
+            font-size: 10px;
+            width: 40px;
+            margin: 10px;
+        }
+        .socials > a:hover{
+            background-color: #fff;
+            border-radius: 50%;
+            height: 40px;
+        }
+    .footer-texts{
         display: inline-block;
-        width: 100%;
-
+        width: 600px;
+        float: left;
+        margin-left: calc(50% - 300px);
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
     }
+        .mlogo{
+            text-align: center;
+            padding-top: 20px;
+            height: 40px;
+            width: 100%;
+            object-fit: contain;
+        }
+        .copyright{
+            display: inline-block;
+            padding-top: 15px;
+        }
+            .text{
+                text-decoration: none;
+                display: inline-block; 
+                
+            }
+            .copyright > .text.border{
+                margin-left: 20px;
+                margin-right: 20px;
+                position: relative;
+            }
+            .copyright > .text.border:before{
+                display: inline-block;
+                content: '';
+                width: 1px;
+                height: 10px;
+                background-color: #fff;
+                position: absolute;
+                top: 6px;
+                left: -9px;
+            }
+            .copyright > .text.border:after{
+                display: inline-block;
+                content: '';
+                width: 1px;
+                height: 10px;
+                background-color: #fff;
+                position: absolute;
+                top: 6px;
+                right: -9px;
+            }
+            .copyright > .text > a{
+                color: #fff;
+
+            }
+            .footer-texts > p{
+                display: inline-block;
+
+            }
+            .footer-texts a{
+                color: #fff;
+
+            }
+            
 .bg-blue {
     background-color: #3cabef;
 }
@@ -112,5 +191,16 @@ body{
     .row{
         width: 100%;
         margin: 0;
+    }
+    .copyright > .text{
+        width: 100%;
+        .copyright > .text.border:before
+        .copyright > .text.border:after{
+            border: none;
+        }
+
+    }
+    .container  .footer-texts{
+        width: 100%;
     }
 }
