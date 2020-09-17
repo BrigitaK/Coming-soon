@@ -15,6 +15,9 @@ body{
     background-attachment: fixed;
     min-height: 100vh;
 }
+.container:nth-child(3) {
+    padding-top: 15px;
+}  
     .hero-row{
         display: inline-block;
         text-align: center;
@@ -81,16 +84,22 @@ body{
         .right-column{
             width: 40%;
             float: right;
-
         }
+  
     .socials{
         display: inline-block;
         width: 100%;
         float: left;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #48b3f2;
         text-align: center;
-        text-decoration: none;
+        padding-bottom: 5px;
     }
+        .fa{
+            text-decoration: none;
+            color: #fff;
+            padding-left: 10px;
+            font-size: 10px;
+        }
     .footer-texts{
         display: inline-block;
         width: 600px;
@@ -98,6 +107,10 @@ body{
         margin-left: calc(50% - 300px);
         text-align: center;
     }
+        .mlogo{
+            text-align: center;
+            padding-top: 20px;
+        }
 .bg-blue {
     background-color: #3cabef;
 }
