@@ -111,12 +111,23 @@ body{
             text-align: center;
             padding-top: 20px;
         }
-        .link{
+        .copyright{
+
            padding-top: 15px;
         }
-            .link1{
+            .text{
                 text-decoration: none;
             }
+            .copyright > .text > a{
+
+            }
+            .footer-texts > p{
+
+            }
+            .footer-texts a{
+                
+            }
+            
 .bg-blue {
     background-color: #3cabef;
 }
