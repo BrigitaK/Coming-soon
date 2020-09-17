@@ -86,12 +86,17 @@ body{
     .socials{
         display: inline-block;
         width: 100%;
-
+social        float: left;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+        text-decoration: none;
     }
-    .texts{
+    .footer-texts{
         display: inline-block;
-        width: 100%;
-
+        width: 600px;
+        float: left;
+        margin-left: calc(50% - 300px);
+        text-align: center;
     }
 .bg-blue {
     background-color: #3cabef;
