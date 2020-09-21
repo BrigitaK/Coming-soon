@@ -2,3 +2,33 @@
     display: inline-block;
     width: 100%;
 }
+.progressbar + .progressbar{
+    margin-top: 40px;
+}
+
+.progressbar > .top{
+    display: inline-block;
+    width: 100%;
+}
+    .progressbar > .top > .label{
+        display: inline-block;
+        float: left;
+    }
+    .progressbar > .top > .percentage{
+        display: inline-block;
+        float: right;
+    }
+
+.progressbar > .bottom{
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    background-color: grey;
+    
+}
+    .progressbar > .bottom > .progress{
+        display: inline-block;
+        height: 100%;
+        width: 86%;
+        background-color: blue;
+    }
