@@ -88,18 +88,9 @@ body{
         }
 
     .back-to-top{
-        display: inline-block;
-        float: right;
-        padding: 10px;
-        text-decoration: none;
-        background-color: red;
-        color: #fff;
+        position: absolute;
         top: -20px;
         right: -20px;
-        position: absolute;
-
-        
-
     }
   
     .socials{

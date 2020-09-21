@@ -3,12 +3,13 @@
     width: 100%;
 }
 .progressbar + .progressbar{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .progressbar > .top{
     display: inline-block;
     width: 100%;
+    margin-bottom: 5px;
 }
     .progressbar > .top > .label{
         display: inline-block;
@@ -23,21 +24,21 @@
     display: inline-block;
     width: 100%;
     height: 5px;
-    background-color: grey;
-    
+    background-color:#ccc; 
 }
     .progressbar > .bottom > .progress{
         display: inline-block;
         height: 100%;
-        width: 86%;
+        width: 90%;
         background-color: transparent;
     }
     .progressbar > .bottom > .progress > .bar{
         display: inline-block;
         height: 100%;
         width: 100%;
-        background-color: blue;
+        background-color: #36f;
         animation-name: loading;
+        animation-fill-mode: forwards;
         animation-duration: 2s;
     }
 
@@ -47,6 +48,6 @@
         width: 0;
     }
     100%{
-        width: 86%;
+        width: 100%;
     }
 }
