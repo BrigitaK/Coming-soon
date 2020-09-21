@@ -71,6 +71,17 @@ body{
             color: #b0b1b6
 
         }
+            .form{
+                display: inline-block;
+                float: left;
+                width: 50%;
+            }
+                .form > .name{
+                display: inline-block;
+                float: left;
+                width: 25%;
+
+                }
     .row{
         display: inline-block;
         width: 1000px;
@@ -201,6 +212,13 @@ body{
 
     }
     .container  .footer-texts{
+        width: 100%;
+    }
+    .left-column{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .right-column{
         width: 100%;
     }
 }
