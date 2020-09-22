@@ -46,8 +46,22 @@ body{
         }
         .hero-row > .form{
             width: 90%;
-            margin: 0 5% 10px;
+            margin: 0 5% 20px;
         }
+            .hero-row > .form > input{
+                width: 90%;
+                background-color: transparent;
+                color: white;
+                border-color: #fff;
+                outline: none;
+            }
+            .hero-row > .form > input::placeholder{
+                color: white;
+            }
+            .hero-row > .form > div{
+                text-align: center;
+                margin-top: 30px;
+            }
 
     .left-column{
         display: inline-block;
@@ -86,7 +100,9 @@ body{
             width: 40%;
             float: right;
         }
-
+        .right-column > .form > .btn{
+            float: right;
+        }
     .back-to-top{
         position: absolute;
         top: -20px;
