@@ -108,11 +108,13 @@ body{
             color: #fff;
             padding:15px;
             font-size: 10px;
+            line height: 20px;
             width: 40px;
             margin: 10px;
         }
         .socials > a:hover{
             background-color: #fff;
+            color: #03A9F5;
             border-radius: 50%;
             height: 40px;
         }
@@ -184,32 +186,68 @@ body{
 }
 
 
-
-@media (max-width:1100px) {
-    .row{
-        width: 600px;
-        margin: 0 calc(50% - 300px);
+@media (max-width: 1100px) {
+    .row {
+        width: 800px;
+        margin-left: calc((100% - 800px) / 2);
     }
 }
 
-@media (max-width:700px) {
-    .container{
-        padding: 60px 20px;
+@media (max-width: 900px) {
+    .row {
+        width: 600px;
+        margin-left: calc((100% - 600px) / 2);
     }
-    .hero-row,
-    .row{
-        width: 100%;
-        margin: 0;
-    }
-    .copyright > .text{
-        width: 100%;
-        .copyright > .text.border:before
-        .copyright > .text.border:after{
-            border: none;
+        .left-column {
+            width: 100%;
+            margin-bottom: 60px;
         }
+        .right-column {
+            width: 100%;
+            float: left;
+        }
+}
 
+@media (max-width: 700px) {
+    .hero-row {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
     }
-    .container  .footer-texts{
+    .row {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+    }
+    .footer-texts {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+    }
+        .copyright > .texts {
+            width: 100%;
+        }
+        .copyright > .texts.borders {
+            margin: 0;
+        }
+            .copyright > .texts.borders::before,
+            .copyright > .texts.borders::after {
+                display: none;
+            }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .hero-row {
         width: 100%;
+        margin-left: 0;
+    }
+    .row {
+        width: 100%;
+        margin-left: 0;
+    }
+    .footer-texts {
+        width: 100%;
+        margin-left: 0;
     }
 }
